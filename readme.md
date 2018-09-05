@@ -1,6 +1,6 @@
-# baseline
+# kinesis-lambda
 
-Baseline kinesis serverless example
+Simple kinesis serverless example
 
 ## Set up
 
