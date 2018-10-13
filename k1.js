@@ -1,6 +1,6 @@
-const doIt = (event, content, callback) => {
+const doIt = async (event, context) => {
     console.log(`doIt called with payload ${JSON.stringify(event)}`);
-    callback(null, 'ok');
+    return 'ok';
 };
 
 module.exports = {
